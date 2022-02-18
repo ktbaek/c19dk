@@ -11,8 +11,8 @@
 date_to_yymmdd <- 
   function(date) {
   
-  paste0(stringr::str_sub(date, 3, 4), 
-         stringr::str_sub(date, 6, 7), 
-         stringr::str_sub(date, 9, 10))
+  paste0(substr(date, 3, 4), 
+         substr(date, 6, 7), 
+         substr(date, 9, 10))
   
     }

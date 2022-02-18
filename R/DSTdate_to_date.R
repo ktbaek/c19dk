@@ -11,10 +11,10 @@
 DSTdate_to_date <- 
   function(DSTdate) {
   
-  date <- paste0(stringr::str_sub(DSTdate, 1, 4), 
-                 "-", stringr::str_sub(DSTdate, 6, 7), 
-                 "-", stringr::str_sub(DSTdate, 9, 10))
+  date <- paste0(substr(DSTdate, 1, 4), 
+                 "-", substr(DSTdate, 6, 7), 
+                 "-", substr(DSTdate, 9, 10))
   
-  lubridate::ymd(date)
+  as.Date(date)
   
   }
