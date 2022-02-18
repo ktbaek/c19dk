@@ -1,0 +1,8 @@
+Package: c19dk
+Version: 0.1
+Date: 2022-02-18
+Title: Helper functions for covid19danmark.dk
+Description: Functions used for the analysis at covid19danmark.dk 
+Author: Kristoffer T. Bæk <kristofferbaek@gmail.com>
+Maintainer: Kristoffer T. Bæk <kristofferbaek@gmail.com>
+RoxygenNote: 7.1.0
